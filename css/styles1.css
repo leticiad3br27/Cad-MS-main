@@ -1,4 +1,28 @@
+@font-face {
+    font-family: 'Greek Freak'; /* Nome que você quer dar à fonte */
+    src: url('Greek-Freak.ttf') format('truetype'); /* Substitua 'Greek-Freak.ttf' pelo nome do seu arquivo de fonte */
+    font-weight: normal; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+}
+
+h1 {
+    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-size: 48px;
+    position: central ;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+h2 {
+    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
 body {
+    background url
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
@@ -11,12 +35,14 @@ header {
     display: flex;
     align-items: center;
 }
-#menu {
-    background: #432692;
-    height: 43px;
-    padding-left: 18px;
-    border-radius: 15px;
-}
+ #menu {
+     background: #0c074e;
+     height: 43px;
+     padding-left: 18px;
+     border-radius: 15px;
+     display: flex; /* Adicionado */
+     justify-content: center; /* Adicionado */
+ }
 #menu ul, #menu li {
     margin: 0 auto;
     padding: 0;
@@ -217,7 +243,7 @@ img {
 }
 
 #chale_dionisio {
-    background-color: #e07bff; /* Vermelho */
+    background-color: #7c0e33; /* Vermelho */
 }
 
 #chale_hades {
