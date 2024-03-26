@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Greek Freak';
+    src: url('Greek-Freak.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Greek Freak', sans-serif;
+    font-size: 48px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: cadetblue;
+    
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #055177; /* Azul claro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(176, 100%, 94%);
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #43e7f3;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e2f9ff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6db8b4; /* Laranja escuro */
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a seção de filhos */
+#filhos {
+    background-color: #f9f9f9; /* Cinza claro */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#filhos h2 {
+    color: #6db8b4; /* Laranja escuro */
+    margin-bottom: 10px;
+}
+
+.filho {
+    background-color: #b0dfff; /* Branco */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filho h3 {
+    color: #001a53; /* Laranja */
+    margin-bottom: 10px;
+}
+
+.filho p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a seção de homenagem */
+#homenagem {
+    background-color: #f0f0f0; /* Cinza claro */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#homenagem h2 {
+    color: #888888; /* Tomate */
+    margin-bottom: 10px;
+}
+
+#homenagem p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

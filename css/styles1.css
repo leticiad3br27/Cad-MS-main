@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #432692;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#menu {
+    background: #432692;
+    height: 43px;
+    padding-left: 18px;
+    border-radius: 15px;
+}
+#menu ul, #menu li {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
+}
+#menu ul {
+    width: 100%;
+    text-align: left;
+}
+#menu li {
+    display: inline-block;
+    position: relative;
+}
+#menu a {
+    display: block;
+    line-height: 43px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#menu a.dropdown-arrow:after {
+    content: "\25BE";
+    margin-left: 5px;
+}
+#menu li a:hover {
+    color: #0099CC;
+    background: #F2F2F2;
+}
+#menu input {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer
+}
+#menu label {
+    display: none;
+    line-height: 43px;
+    text-align: center;
+    position: absolute;
+    left: 35px
+}
+#menu label:before {
+    font-size: 1.6em;
+    color: #FFFFFF;
+    content: "\2261"; 
+    margin-left: 20px;
+}
+#menu ul.sub-menus{
+    height: auto;
+    overflow: hidden;
+    width: 170px;
+    background: #444444;
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+#menu ul.sub-menus li {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+#menu ul.sub-menus a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+    display: block
+}
+#menu ul.sub-menus a:hover{
+    background: #F2F2F2;
+    color: #444444;
+}
+@media screen and (max-width: 800px){
+    #menu {position:relative}
+    #menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
+    #menu ul.sub-menus {width:100%;position:static;}
+    #menu ul.sub-menus a {padding-left:30px;}
+    #menu li {display:block;float:none;width:auto;}
+    #menu input, #menu label {position:absolute;top:0;left:0;display:block}
+    #menu input {z-index:4}
+    #menu input:checked + label {color:#FFFFFF}
+    #menu input:checked + label:before {content:"\00d7"}
+    #menu input:checked ~ ul {display:block}
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
+}
+
+article {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.chale {
+    position: relative;
+    overflow: hidden;
+}
+
+.chale-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.chale-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.chale:hover .chale-image {
+    opacity: 1;
+}
+
+.chale:hover .chale-label {
+    opacity: 1;
+}
+#chale_zeus {
+    background-color: #bbbbbb; /* Azul */
+}
+
+#chale_hera {
+    background-color: #cb8ee4; /* Roxo */
+}
+
+#chale_poseidon {
+    background-color: #1abc9c; /* Verde */
+}
+
+#chale_demeter {
+    background-color: #2ecc71; /* Verde claro */
+}
+
+#chale_ares {
+    background-color: #a51000; /* Vermelho */
+}
+
+#chale_atena {
+    background-color: #b1b1b1; /* Azul escuro */
+}
+
+#chale_apolo {
+    background-color: #f39c12; /* Laranja */
+}
+
+#chale_artemis {
+    background-color: #9e9e9e; /* Verde escuro */
+}
+
+#chale_hefesto {
+    background-color: #e67e22; /* Laranja claro */
+}
+
+#chale_afrodite {
+    background-color: #ff4fe2; /* Laranja avermelhado */
+}
+
+#chale_hermes {
+    background-color: #89cfd4; /* Amarelo */
+}
+
+#chale_dionisio {
+    background-color: #e07bff; /* Vermelho */
+}
+
+#chale_hades {
+    background-color: #424242; /* Azul escuro acinzentado */
+}
+
+#chale_iris {
+    background-color: #dcb1ff; /* Azul */
+}
+
+#chale_hestia {
+    background-color: #f5a768; /* Roxo */
+}
+
+#chale_nemesis {
+    background-color: #979797; /* Verde */
+}
+
+#chale_nike {
+    background-color: #9e6d45; /* Verde claro */
+}
+
+#chale_hebe {
+    background-color: #97eefa; /* Vermelho */
+}
+
+#chale_tique {
+    background-color: #f5e400; /* Azul escuro */
+}
+
+#chale_hecate {
+    background-color: #f39c12; /* Laranja */
+}
+
+
+#chale_persefone {
+    background-color: #d385c0; /* Laranja claro */
+}
+
+#chale_thanatos {
+    background-color: #4d4d4d; /* Laranja avermelhado */
+}
+
+
+
+
+
+#chale_himeros {
+    background-color: #a10028; /* Azul escuro acinzentado */
+}
+img {
+    max-width: 100px; /* A imagem não será maior que o contêiner pai */
+    max-height: 100px; /* A imagem não será maior que o contêiner pai */
+}

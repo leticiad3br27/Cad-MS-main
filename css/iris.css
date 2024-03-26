@@ -1,0 +1,98 @@
+
+
+@font-face {
+    font-family: 'Greek Freak'; /* Nome que você quer dar à fonte */
+    src: url('Greek-Freak.ttf') format('truetype'); /* Substitua 'Greek-Freak.ttf' pelo nome do seu arquivo de fonte */
+    font-weight: normal; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+}
+
+h1 {
+    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-size: 48px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to bottom right, #f2f2f2, #ffffff); /* Fundo degradê bem clarinho */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2; /* Cor do céu nublado */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fdeaae; /* Cor do arco-íris: amarelo pastel */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section:nth-child(odd) {
+    background-color: #ffbdbd; /* Cor do arco-íris: rosa pastel */
+}
+
+section:nth-child(3n) {
+    background-color: #ff9cff; /* Cor do arco-íris: roxo pastel */
+}
+
+section:nth-child(4n) {
+    background-color: #a9ffcb; /* Cor do arco-íris: verde pastel */
+}
+
+section:nth-child(5n) {
+    background-color: #a9d6ff; /* Cor do arco-íris: azul pastel */
+}
+
+section:nth-child(6n) {
+    background-color: #ffd699; /* Cor do arco-íris: laranja pastel */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #f2f2f2; /* Cor do céu nublado */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

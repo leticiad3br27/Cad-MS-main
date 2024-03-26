@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Greek Freak'; /* Nome que você quer dar à fonte */
+    src: url('Greek-Freak.ttf') format('truetype'); /* Substitua 'Greek-Freak.ttf' pelo nome do seu arquivo de fonte */
+    font-weight: normal; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+}
+
+h1 {
+    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-size: 48px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2; /* Cinza claro */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #aaaaaa; /* Azul escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #999999; /* Azul escuro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para a seção dos semideuses */
+#semideuses {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#semideuses h2 {
+    color: #afafaf; /* Azul escuro */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.semideus {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.semideus h3 {
+    color: #9b9b9b; /* Azul escuro */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.semideus p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.semideus ul {
+    color: #333;
+    margin-left: 20px;
+}
+
+.semideus ul li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,42 @@
+#chale19 {
+    background-color: #FF6347; /* Tomate */
+    font-family: 'Palatino', serif;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chale19 h2 {
+    color: #FFFFFF; /* Branco */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#chale19 h3 {
+    color: #FF6347; /* Tomate */
+}
+
+#chale19 p {
+    color: #000000; /* Preto */
+    line-height: 1.6;
+}
+
+#chale19 img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #FFFFFF; /* Branco */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#chale19 a {
+    color: #FF6347; /* Tomate */
+    text-decoration: none;
+}
+
+#chale19 a:hover {
+    color: #FFFFFF; /* Branco */
+}
