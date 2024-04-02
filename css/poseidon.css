@@ -19,7 +19,7 @@ h1 {
     box-sizing: border-box;
 }
 
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     color: #333;
@@ -27,9 +27,9 @@ body {
     
 }
 
-/* Estilos para o cabeçalho */
+
 header {
-    background-color: #055177; /* Azul claro */
+    background-color: #055177; 
     padding: 20px;
     text-align: center;
 }
@@ -59,7 +59,7 @@ nav ul li a:hover {
     color: #43e7f3;
 }
 
-/* Estilos para o conteúdo principal */
+
 main {
     padding: 20px;
 }
@@ -73,7 +73,7 @@ section {
 }
 
 section h2 {
-    color: #6db8b4; /* Laranja escuro */
+    color: #6db8b4; 
     margin-bottom: 10px;
 }
 
@@ -82,9 +82,9 @@ section p {
     margin-bottom: 10px;
 }
 
-/* Estilos para a seção de filhos */
+
 #filhos {
-    background-color: #f9f9f9; /* Cinza claro */
+    background-color: #f9f9f9;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -92,12 +92,12 @@ section p {
 }
 
 #filhos h2 {
-    color: #6db8b4; /* Laranja escuro */
+    color: #6db8b4; 
     margin-bottom: 10px;
 }
 
 .filho {
-    background-color: #b0dfff; /* Branco */
+    background-color: #b0dfff;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -105,7 +105,7 @@ section p {
 }
 
 .filho h3 {
-    color: #001a53; /* Laranja */
+    color: #001a53;
     margin-bottom: 10px;
 }
 
@@ -114,9 +114,9 @@ section p {
     margin-bottom: 10px;
 }
 
-/* Estilos para a seção de homenagem */
+
 #homenagem {
-    background-color: #f0f0f0; /* Cinza claro */
+    background-color: #f0f0f0; 
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -124,7 +124,7 @@ section p {
 }
 
 #homenagem h2 {
-    color: #888888; /* Tomate */
+    color: #888888; 
     margin-bottom: 10px;
 }
 
@@ -133,7 +133,7 @@ section p {
     margin-bottom: 10px;
 }
 
-/* Estilos para o rodapé */
+
 footer {
     background-color: #333;
     color: #fff;

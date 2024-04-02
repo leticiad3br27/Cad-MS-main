@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Greek Freak'; /* Nome que você quer dar à fonte */
-    src: url('Greek-Freak.ttf') format('truetype'); /* Substitua 'Greek-Freak.ttf' pelo nome do seu arquivo de fonte */
-    font-weight: normal; /* Peso da fonte */
-    font-style: normal; /* Estilo da fonte */
+    font-family: 'Greek Freak'; 
+    src: url('Greek-Freak.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal; 
 }
 
 h1 {
-    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-family: 'Greek Freak', sans-serif; 
     font-size: 48px;
     position: central ;
     display: inline-block;
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Greek Freak', sans-serif; /* Aplicando a fonte apenas ao h1 */
+    font-family: 'Greek Freak', sans-serif; 
     font-size: 32px;
     position: relative;
     display: inline-block;
@@ -22,13 +22,13 @@ h2 {
 }
 
 body {
-    background url
+    background:beige;
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color: #432692;
+    background: linear-gradient(#050b3d,#0d0a3d);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -40,8 +40,8 @@ header {
      height: 43px;
      padding-left: 18px;
      border-radius: 15px;
-     display: flex; /* Adicionado */
-     justify-content: center; /* Adicionado */
+     display: flex; 
+     justify-content: center; 
  }
 #menu ul, #menu li {
     margin: 0 auto;
@@ -148,7 +148,7 @@ section {
     padding: 20px;
     border: 1px solid #d9d9d9;
     border-radius: 5px;
-    cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
+    cursor: pointer; 
 }
 
 article {
@@ -198,93 +198,97 @@ img {
 .chale:hover .chale-label {
     opacity: 1;
 }
+
+#sobrevivencia{
+    background: linear-gradient(#cc6d00,#084680);
+}
 #chale_zeus {
-    background-color: #bbbbbb; /* Azul */
+    background: #bbbbbb; 
 }
 
 #chale_hera {
-    background-color: #cb8ee4; /* Roxo */
+    background-color: #cb8ee4; 
 }
 
 #chale_poseidon {
-    background-color: #1abc9c; /* Verde */
+    background-color: #1abc9c; 
 }
 
 #chale_demeter {
-    background-color: #2ecc71; /* Verde claro */
+    background-color: #2ecc71; 
 }
 
 #chale_ares {
-    background-color: #a51000; /* Vermelho */
+    background-color: #a51000; 
 }
 
 #chale_atena {
-    background-color: #b1b1b1; /* Azul escuro */
+    background-color: #b1b1b1; 
 }
 
 #chale_apolo {
-    background-color: #f39c12; /* Laranja */
+    background-color: #f39c12; 
 }
 
 #chale_artemis {
-    background-color: #9e9e9e; /* Verde escuro */
+    background-color: #9e9e9e; 
 }
 
 #chale_hefesto {
-    background-color: #e67e22; /* Laranja claro */
+    background-color: #e67e22; 
 }
 
 #chale_afrodite {
-    background-color: #ff4fe2; /* Laranja avermelhado */
+    background-color: #ff4fe2; 
 }
 
 #chale_hermes {
-    background-color: #89cfd4; /* Amarelo */
+    background-color: #89cfd4; 
 }
 
 #chale_dionisio {
-    background-color: #7c0e33; /* Vermelho */
+    background-color: #7c0e33; 
 }
 
 #chale_hades {
-    background-color: #424242; /* Azul escuro acinzentado */
+    background-color: #424242; 
 }
 
 #chale_iris {
-    background-color: #dcb1ff; /* Azul */
+    background-color: #dcb1ff; 
 }
 
 #chale_hestia {
-    background-color: #f5a768; /* Roxo */
+    background-color: #f5a768; 
 }
 
 #chale_nemesis {
-    background-color: #979797; /* Verde */
+    background-color: #979797; 
 }
 
 #chale_nike {
-    background-color: #9e6d45; /* Verde claro */
+    background-color: #9e6d45;
 }
 
 #chale_hebe {
-    background-color: #97eefa; /* Vermelho */
+    background-color: #97eefa; 
 }
 
 #chale_tique {
-    background-color: #f5e400; /* Azul escuro */
+    background-color: #f5e400; 
 }
 
 #chale_hecate {
-    background-color: #f39c12; /* Laranja */
+    background-color: #f39c12; 
 }
 
 
 #chale_persefone {
-    background-color: #d385c0; /* Laranja claro */
+    background-color: #d385c0; 
 }
 
 #chale_thanatos {
-    background-color: #4d4d4d; /* Laranja avermelhado */
+    background-color: #4d4d4d; 
 }
 
 
@@ -292,9 +296,19 @@ img {
 
 
 #chale_himeros {
-    background-color: #a10028; /* Azul escuro acinzentado */
+    background-color: #a10028; 
 }
 img {
-    max-width: 100px; /* A imagem não será maior que o contêiner pai */
-    max-height: 100px; /* A imagem não será maior que o contêiner pai */
+    max-width: 100px; 
+    max-height: 100px; 
+}
+
+
+footer {
+    background-color: #f2f2f2; /* Cor do céu nublado */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

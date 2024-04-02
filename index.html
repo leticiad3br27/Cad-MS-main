@@ -11,15 +11,19 @@
 
 <body><header>
     <h1>Jornal_CSM</h1>
-    <nav id='menu'>
-        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+    <navinput id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'>
+            <label>
+
+            </label> 
+        >
         <ul>
             <li><a href='#'>Início</a></li>
             <li>
                 <a class='dropdown-arrow' href='#'>Produtos</a>
                 <ul class='sub-menus'>
                     <li><a href="sobrevivencia.html">Sobrevivência</a></li>
-                    <li><a href="#descoberta">Descoberta</a></li>
+                    <li><a href="https://semideusaany.blogs">Descoberta</a></li>
                     <li><a href="#chale">Chalés</a>
                         <ul class='sub-menus'>
                             <li><a href="#chale1">chalé de Zeus</a></li>
@@ -54,7 +58,15 @@
     </nav>
 </header>
 
-   
+<section id="sobrevivencia" onclick="scrollToSection('Como sobreviver')">
+    <article class="book">
+        <h2>Como Sobreviver no acampamento</h2>
+        <a href="sobrevivencia.html" target="_blank" class="img">
+            <img src="img/4313b399-08ac-4af5-9933-f1d37479a14a.jpg" alt="acampamento">
+        </a>
+       
+    </article>
+</section>
 
     <!-- Chalé de Zeus -->
 <section id="chale_zeus" onclick="scrollToSection('chale_zeus')">
@@ -315,4 +327,6 @@
     </article>
 </section>
 
-
+<footer>
+    <p>© 2024 Leticia Silva  - Todos os direitos reservados</p>
+</footer>
